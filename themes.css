@@ -1,0 +1,145 @@
+/* themes.css */
+
+/* --- Catppuccin Macchiato Theme --- */
+body.leetcode-theme-catppuccin-macchiato .monaco-editor,
+body.leetcode-theme-catppuccin-macchiato .monaco-editor .margin,
+body.leetcode-theme-catppuccin-macchiato .monaco-editor .monaco-editor-background {
+    background-color: #24273a !important; /* Base */
+}
+/* ... (Keep all other Macchiato styles from the previous version) ... */
+body.leetcode-theme-catppuccin-macchiato .monaco-editor .bracket-match {
+  background-color: #363a4f !important; /* Surface 0 */
+  border: 1px solid #8087a2 !important; /* Overlay 1 */
+  box-sizing: border-box;
+}
+
+
+/* --- Catppuccin Mocha Theme --- */
+body.leetcode-theme-catppuccin-mocha .monaco-editor,
+body.leetcode-theme-catppuccin-mocha .monaco-editor .margin, /* Gutter */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .monaco-editor-background {
+    background-color: #1e1e2e !important; /* Base */
+}
+
+body.leetcode-theme-catppuccin-mocha .monaco-editor .view-lines,
+body.leetcode-theme-catppuccin-mocha .monaco-editor .margin-view-overlays .codicon, /* Icons */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .margin-view-overlays .line-numbers /* Line numbers */ {
+    color: #cdd6f4 !important; /* Text */
+}
+
+body.leetcode-theme-catppuccin-mocha .monaco-editor .margin-view-overlays .current-line-margin,
+body.leetcode-theme-catppuccin-mocha .monaco-editor .margin-view-overlays .current-line ~ .line-numbers {
+    color: #f9e2af !important; /* Yellow for current line number */
+}
+
+body.leetcode-theme-catppuccin-mocha .monaco-editor .current-line ~ .current-line,
+body.leetcode-theme-catppuccin-mocha .monaco-editor .view-overlays .current-line {
+    background-color: #313244 !important; /* Surface 0 */
+    border: none !important;
+    box-sizing: border-box;
+}
+
+body.leetcode-theme-catppuccin-mocha .monaco-editor .cursor {
+     background-color: #f5e0dc !important; /* Rosewater */
+}
+
+body.leetcode-theme-catppuccin-mocha .monaco-editor .selected-text {
+    background-color: #45475a !important; /* Surface 1 */
+}
+
+body.leetcode-theme-catppuccin-mocha .monaco-editor .focused .selected-text {
+    background-color: #585b70 !important; /* Surface 2 */
+}
+
+/* Syntax Highlighting (Catppuccin Mocha) - Adapt mtk numbers as needed */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk1 { color: #cba6f7 !important; } /* Mauve (Keywords) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk18 { color: #cba6f7 !important; } /* Mauve (Storage keywords) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk11 { color: #fab387 !important; } /* Peach (Control flow) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk6 { color: #a6e3a1 !important; } /* Green (Strings) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk8 { color: #fab387 !important; } /* Peach (Numbers, Booleans) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk15 { color: #7f849c !important; font-style: italic !important; } /* Overlay 1 (Comments) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk7 { color: #f9e2af !important; } /* Yellow (Types, Classes) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk14 { color: #f9e2af !important; } /* Yellow (Decorators) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk12 { color: #89b4fa !important; } /* Blue (Function calls) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk4 { color: #89dceb !important; } /* Sky (Property names) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk21 { color: #cdd6f4 !important; } /* Text (Parameters) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk16 { color: #94e2d5 !important; } /* Teal (Operators) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk17 { color: #bac2de !important; } /* Subtext 1 (Punctuation) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk5 { color: #f2cdcd !important; } /* Flamingo (Constants) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk10 { color: #89b4fa !important; } /* Blue (HTML Tag name) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk3 { color: #a6e3a1 !important; } /* Green (HTML Attr value) */
+body.leetcode-theme-catppuccin-mocha .monaco-editor .mtk9 { color: #f9e2af !important; } /* Yellow (HTML Attr name) */
+
+/* UI Elements (Mocha) */
+body.leetcode-theme-catppuccin-mocha .monaco-scrollable-element > .scrollbar > .slider { background: #45475acc !important; }
+body.leetcode-theme-catppuccin-mocha .monaco-scrollable-element > .scrollbar > .slider:hover { background: #585b70cc !important; }
+body.leetcode-theme-catppuccin-mocha .monaco-scrollable-element > .scrollbar > .slider:active { background: #6c7086cc !important; }
+body.leetcode-theme-catppuccin-mocha .lines-content .lines-decorations > div > div { box-shadow: 1px 0 0 0 #45475a inset !important; }
+body.leetcode-theme-catppuccin-mocha .lines-content .lines-decorations > div > .active { box-shadow: 1px 0 0 0 #7f849c inset !important; }
+body.leetcode-theme-catppuccin-mocha .monaco-editor .bracket-match { background-color: #313244 !important; border: 1px solid #7f849c !important; box-sizing: border-box; }
+
+
+/* --- Atom One Dark Theme --- */
+/* Base colors derived from typical Atom One Dark */
+body.leetcode-theme-atom-one-dark .monaco-editor,
+body.leetcode-theme-atom-one-dark .monaco-editor .margin,
+body.leetcode-theme-atom-one-dark .monaco-editor .monaco-editor-background {
+    background-color: #282c34 !important; /* Typical Atom One Dark bg */
+}
+
+body.leetcode-theme-atom-one-dark .monaco-editor .view-lines,
+body.leetcode-theme-atom-one-dark .monaco-editor .margin-view-overlays .codicon,
+body.leetcode-theme-atom-one-dark .monaco-editor .margin-view-overlays .line-numbers {
+    color: #abb2bf !important; /* Typical Atom One Dark fg */
+}
+
+body.leetcode-theme-atom-one-dark .monaco-editor .margin-view-overlays .current-line-margin,
+body.leetcode-theme-atom-one-dark .monaco-editor .margin-view-overlays .current-line ~ .line-numbers {
+    color: #e5c07b !important; /* Yellow from palette */
+}
+
+body.leetcode-theme-atom-one-dark .monaco-editor .current-line ~ .current-line,
+body.leetcode-theme-atom-one-dark .monaco-editor .view-overlays .current-line {
+    background-color: #313540 !important; /* Slightly lighter bg */
+    border: none !important;
+    box-sizing: border-box;
+}
+
+body.leetcode-theme-atom-one-dark .monaco-editor .cursor {
+     background-color: #61afef !important; /* Blue from palette */
+}
+
+body.leetcode-theme-atom-one-dark .monaco-editor .selected-text {
+    background-color: #3e4451 !important; /* Standard selection color */
+}
+
+body.leetcode-theme-atom-one-dark .monaco-editor .focused .selected-text {
+    background-color: #4b5160 !important; /* Slightly brighter selection */
+}
+
+/* Syntax Highlighting (Atom One Dark) - Using provided palette + common sense */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk1 { color: #61afef !important; } /* Blue (Keywords) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk18 { color: #61afef !important; } /* Blue (Storage keywords) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk11 { color: #61afef !important; } /* Blue (Control flow) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk6 { color: #98c379 !important; } /* Green (Strings) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk8 { color: #56b6c2 !important; } /* Cyan (Numbers, Booleans) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk15 { color: #5c6370 !important; font-style: italic !important; } /* Grey (Comments) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk7 { color: #e5c07b !important; } /* Yellow (Types, Classes) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk14 { color: #e5c07b !important; } /* Yellow (Decorators) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk12 { color: #61afef !important; } /* Blue (Function calls) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk4 { color: #e06c75 !important; } /* Red (Property names, sometimes variables) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk21 { color: #abb2bf !important; } /* Default Text (Parameters) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk16 { color: #56b6c2 !important; } /* Cyan (Operators) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk17 { color: #abb2bf !important; } /* Default Text (Punctuation) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk5 { color: #e06c75 !important; } /* Red (Constants) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk10 { color: #e06c75 !important; } /* Red (HTML Tag name) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk3 { color: #98c379 !important; } /* Green (HTML Attr value) */
+body.leetcode-theme-atom-one-dark .monaco-editor .mtk9 { color: #e5c07b !important; } /* Yellow (HTML Attr name) */
+
+/* UI Elements (Atom One Dark) */
+body.leetcode-theme-atom-one-dark .monaco-scrollable-element > .scrollbar > .slider { background: #3e4451cc !important; }
+body.leetcode-theme-atom-one-dark .monaco-scrollable-element > .scrollbar > .slider:hover { background: #4b5160cc !important; }
+body.leetcode-theme-atom-one-dark .monaco-scrollable-element > .scrollbar > .slider:active { background: #5c6370cc !important; }
+body.leetcode-theme-atom-one-dark .lines-content .lines-decorations > div > div { box-shadow: 1px 0 0 0 #3e4451 inset !important; }
+body.leetcode-theme-atom-one-dark .lines-content .lines-decorations > div > .active { box-shadow: 1px 0 0 0 #5c6370 inset !important; }
+body.leetcode-theme-atom-one-dark .monaco-editor .bracket-match { background-color: #282c34 !important; border: 1px solid #5c6370 !important; box-sizing: border-box; }
